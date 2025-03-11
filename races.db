@@ -1,0 +1,11 @@
+CREATE TABLE races (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    date TEXT NOT NULL,
+    url TEXT,
+    registration_url TEXT
+);
+
+INSERT INTO races (name, date, url, registration_url) VALUES
+('Ritt 1', '2025-06-01', 'https://ritt1.com', 'https://ritt1.com/registration'),
+('Ritt 2', '2025-06-15', 'https://ritt2.com', 'https://ritt2.com/registration');
